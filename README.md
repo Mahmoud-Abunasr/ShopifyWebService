@@ -3,7 +3,7 @@ A project that demonstrates building a web service using pure PHP and interactin
 </br></br>
 ### Usage
 1- Clone the repository in the server root folder</br>
-2- Edit the `config/config.dev.json` file and set your shopify api_key and access_token in the shopify config sesction</br>
+2- Edit the `config/config.dev.json` file and set your shopify `api_key` and `access_token` in the shopify config sesction</br>
 </br></br>
 ### API Endpoints
 
