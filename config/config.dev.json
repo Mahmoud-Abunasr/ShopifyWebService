@@ -1,0 +1,13 @@
+{
+    "shopify": {
+        "domain": "myshopify.com",
+        "storeName": "shopifenvo",
+        "apiKey": "<api_key>",
+        "apiPassword": "<access_token>",
+        "apiEndpoints": {
+            "products": "admin/products.json",
+            "locations": "admin/locations.json",
+            "inventory_levels": "admin/inventory_levels/adjust.json"
+        }
+    }
+}
