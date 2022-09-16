@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "2ba919a9-2d52-4eaf-b55a-5527116c246c",
+		"name": "TaskRequestCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/SellenvoWebServiceTask/ShopifyWebService/product/importProducts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "products_csv_file",
+							"value": null,
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/SellenvoWebServiceTask/ShopifyWebService/product/importProducts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SellenvoWebServiceTask",
+						"ShopifyWebService",
+						"product",
+						"importProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/SellenvoWebServiceTask/ShopifyWebService/product/getProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/SellenvoWebServiceTask/ShopifyWebService/product/getProducts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SellenvoWebServiceTask",
+						"ShopifyWebService",
+						"product",
+						"getProducts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/SellenvoWebServiceTask/ShopifyWebService/product/updateProductsQuantity",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "products_csv_file",
+							"value": null,
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/SellenvoWebServiceTask/ShopifyWebService/product/updateProductsQuantity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"SellenvoWebServiceTask",
+						"ShopifyWebService",
+						"product",
+						"updateProductsQuantity"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
